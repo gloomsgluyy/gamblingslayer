@@ -9,7 +9,7 @@ DB_PATH = DATA_DIR / "gambling_slayer.db"
 DATA_DIR.mkdir(exist_ok=True)
 LOG_DIR.mkdir(exist_ok=True)
 
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "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")
+OPENROUTER_API_KEY = os.getenv
 OPENROUTER_MODEL = "xiaomi/mimo-v2-flash:free"
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
